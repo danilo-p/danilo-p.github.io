@@ -83,3 +83,27 @@ body {
     font-weight: 700;
     font-size: 12px;
 }
+
+.portfolio-footer {
+    background-color: #333;
+    color: #999;
+    padding: 60px;
+}
+
+.portfolio-footer p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0;
+}
+
+.portfolio-footer a {
+    font-size: 28px;
+    vertical-align: middle;
+    color: #999;
+    margin-left: 3px;
+}
+
+.portfolio-footer a:hover {
+    color: #fff200;
+}
