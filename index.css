@@ -31,7 +31,7 @@ body {
     color: #fff;
 }
 
-.navbar ul {
+.navbar ul, .navbar li {
     margin: auto;
 }
 
