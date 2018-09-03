@@ -107,3 +107,88 @@ body {
 .portfolio-footer a:hover {
     color: #fff200;
 }
+
+.career-path {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.role {
+    padding: 25px;
+}
+
+.role:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -12.5px;
+    height: 25px;
+    width: 25px;
+    background-color: #333;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #333;
+    border-radius: 50%;
+}
+
+.role:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #333;
+}
+
+.role__title {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.role__company {
+    margin: 0;
+}
+
+.role__period {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.role--right {
+    text-align: right;
+}
+
+.role--right:after {
+    right: -12.5px;
+}
+
+.role--right:before {
+    right: -0.5px;
+}
+
+.role--left {
+    text-align: left;
+}
+
+.role--left:after {
+    left: -12.5px;
+}
+
+.role--left:before {
+    left: -0.5px;
+}
+
+@media screen and (max-width: 768px) {
+    .role--left, .role--right {
+        text-align: center;
+    }
+
+    .role::after, .role::before {
+        display: none;
+    }
+
+    .career-path {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
